@@ -4,7 +4,7 @@ node_modules/
 # Local environment / secrets
 .env
 .env.*
-Backend-obfuscated/config/config.env
+backend/config/config.env
 
 # Logs
 npm-debug.log*
