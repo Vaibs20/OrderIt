@@ -1,0 +1,10 @@
+const express = require("express");
+const authController = require("../controllers/authController");
+const { processPayment, sendStripApi } = require("../controllers/paymentController");
+
+const router = express.Router();
+
+router.route("/payment/process").post(authController.protect, processPayment);
+router.route("/stripeapi").get(authController.protect, sendStripApi);
+
+module.exports = router;

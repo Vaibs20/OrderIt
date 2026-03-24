@@ -1,0 +1,17 @@
+# Node / React / Express
+node_modules/
+
+# Local environment / secrets
+.env
+.env.*
+Backend-obfuscated/config/config.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
